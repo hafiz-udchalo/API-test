@@ -11,5 +11,5 @@ Resources:
         HttpPost:
           Type: Api
           Properties:
-            Path: '/DynamoDBOperations/DynamoDBManager'
+            Path: 'open_api.yml'
             Method: post
