@@ -2,6 +2,7 @@
   - name: Test s3
     hosts: local
     connection: local
+    become: true
 
     tasks:
     - name: update API
