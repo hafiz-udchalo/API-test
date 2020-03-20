@@ -1,0 +1,11 @@
+---
+  - name: Test s3
+    hosts: local
+    connection: local
+
+    tasks:
+    - name: update API
+      aws_api_gateway:
+        api_id: 'rn4afe98lg'
+        state: present
+        swagger_file: open_api.yml
